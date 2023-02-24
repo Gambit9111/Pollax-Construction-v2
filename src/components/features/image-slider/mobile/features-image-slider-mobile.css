@@ -1,0 +1,25 @@
+.features-image-slider-mobile
+{
+    cursor: grab;
+    overflow: hidden;
+}
+
+.features-image-slider-mobile .inner-carousel
+{
+    display: flex;
+}
+
+.features-image-slider-mobile .inner-carousel .item {
+    max-height: 30rem;
+    min-width: 20rem;
+}
+
+.features-image-slider-mobile .inner-carousel .item .myImage
+{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+

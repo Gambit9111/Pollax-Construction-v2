@@ -1,0 +1,44 @@
+.features-image-slider-desktop .slider {
+    display: flex;
+    aspect-ratio: 1 / 1;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+}
+
+.features-image-slider-desktop .slider .myImage {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+}
+
+.features-image-slider-desktop .slider-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.features-image-slider-desktop .slider-nav a {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: opacity 250ms ease;
+}
+
+.features-image-slider-desktop .slider-nav a:hover {
+    opacity: 1;
+}
+
+.features-image-slider-desktop .slider-nav a.active {
+    background-color: #E8865C;
+    opacity: 1;
+}
