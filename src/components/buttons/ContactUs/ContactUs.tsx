@@ -3,7 +3,7 @@ import Link from "next/link";
 
 type Props = {};
 
-export default function ({}: Props) {
+export default function ContactUs({}: Props) {
   return (
     <div className="relative mt-4 mr-4 flex h-40 flex-col border-r border-black bg-my-skin pl-4 768:mr-0 xl:mt-0 xl:border-r-0 xl:border-t">
       <span className="mb-7 mt-3 flex h-6 items-center gap-3">
